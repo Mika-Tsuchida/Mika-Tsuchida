@@ -22,11 +22,11 @@ public class GCD {
 		  //値を２つ入力してください
 	  	    System.out.println("値を２つ入力してください:"); 
 	  	  
-	  	  Scanner sc1 =new Scanner(System.in);
-	    	Scanner sc2=new Scanner(System.in);
-	  	  int figure1=sc1.nextInt();
-	  	  int figure2=sc2.nextInt();
-	  	   
+	  	  Scanner scanner =new Scanner(System.in);
+	    
+	  	  int figure1=scanner.nextInt();
+	  	  int figure2=scanner.nextInt();
+	  	
 	  	 
 	  	System.out.println("入力値"+figure1+","+figure2+"の時");
 	  	System.out.println(GCD(figure1, figure2));
@@ -36,5 +36,7 @@ public class GCD {
 		// TODO Auto-generated method stub
 
 	}
+
+	
 
 }
